@@ -30,11 +30,11 @@ body {
   text-align: center;
 }
 .top__info{
-  margin-top: 115px;
+ padding-top: 115px;
   flex-grow: 1;
   background-image: url(img/illustration.png);
   background-repeat: no-repeat;
-  background-position: right center;
+  background-position: right bottom;
 }
 .top_box{
   display: flex;
