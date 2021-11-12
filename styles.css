@@ -3,11 +3,11 @@
   padding: 0;
 }
 .container {
-  width: 1140px;
+  max-width: 1140px;
   margin: 0 auto;
 }
 .top{
-  height: 768px;
+  min-height: 768px;
   background: linear-gradient(0deg, #EBF3FB 8.84%, 
   rgba(152, 195, 232, 0) 31.12%);
 }
@@ -30,11 +30,12 @@ body {
   text-align: center;
 }
 .top__info{
- padding-top: 115px;
+  padding-top: 115px;
   flex-grow: 1;
   background-image: url(img/illustration.png);
   background-repeat: no-repeat;
   background-position: right bottom;
+  background-size: 44%;
 }
 .top_box{
   display: flex;
@@ -274,4 +275,86 @@ line-height: 30px;
 text-align: center;
 letter-spacing: 0.04em;
 color: rgba(255, 255, 255, 0.6);
+}
+@media (max-width: 1024px) {
+  .container{
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+  .top__info{
+    background-position: right bottom;
+  }
+  .medium__infocard{
+    flex-direction: column;
+    align-items: center;
+  }
+  .card{
+    margin-bottom: 32px;
+  }
+}
+@media (max-width: 667px) {
+  .top {
+    min-height: 376px;
+    padding-bottom: 41px;
+    box-sizing: border-box;
+  }
+  .menu{
+    padding-top: 24px;
+  }
+  .top__info{
+    padding-top: 36px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: none;
+  }
+  .top__info__heading {
+    width: 100%;
+    font-size: 32px;
+    line-height: 37px;
+    margin-bottom: 12px;
+    text-align: center;
+  }
+  .top__info__par{
+    width: 100%;
+    text-align: center;
+  }
+  .top__button{
+    font-size: 12px;
+    line-height: 26px;
+    padding: 0x 8px;
+  }
+  .heading3{
+    font-size: 24px;
+    line-height: 28px;
+  }
+  .medium{
+    padding-top: 48px;
+  }
+  .medium__infocard{
+    padding-top: 32px;
+  }
+  .card{
+    width: 100%;
+  }
+  .par_project{
+    width: 100%;
+  }
+  .project__text{
+    font-size: 16px;
+    line-height: 19px;
+    top: 16px;
+    right: 16px;
+  }
+  .project__text__small{
+    left: 16px;
+  }
+  .project__parent{
+    flex-direction: column;
+    margin-top: 16px;
+  }
+  .project__child{
+    margin-right: 0;
+    margin-bottom: 16px;
+  }
 }
