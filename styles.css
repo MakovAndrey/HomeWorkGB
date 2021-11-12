@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 .container {
   max-width: 1140px;
@@ -110,7 +111,7 @@ body {
   padding-top: 42px;
 }
 .top__info__par {
-  width: 425px;
+  max-width: 425px;
 }
 .card {
   width: 359px;
@@ -195,7 +196,7 @@ body {
 }
 .footer__par{
  color: #FFFFFF;
- width: 495px;
+ max-width: 495px;
 }
 .footer__block {
   width: 100%;
@@ -206,7 +207,7 @@ body {
   align-items: center;
 }
 .head__foot__left {
-  width: 340px;
+  max-width: 340px;
   font-size: 36px;
   line-height: 46px;
   letter-spacing: 0.05em;
@@ -265,16 +266,16 @@ body {
   margin-bottom: 16px;
 }
 .contact__main__par{
- font-size: 20px;
-line-height: 30px;
-text-align: center;
-letter-spacing: 0.04em;
-color: rgba(255, 255, 255, 0.6);
-font-size: 20px;
-line-height: 30px;
-text-align: center;
-letter-spacing: 0.04em;
-color: rgba(255, 255, 255, 0.6);
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: rgba(255, 255, 255, 0.6);
 }
 @media (max-width: 1024px) {
   .container{
