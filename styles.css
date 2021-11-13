@@ -368,6 +368,11 @@ body {
     align-items: center;
     background-image: none;
   }
+  .top__button {
+    font-size: 12px;
+    padding: 5px 13px;
+    margin-top: 32px;
+  }
   .top__info__heading {
     max-width: 100%;
     font-size: 32px;
@@ -389,13 +394,21 @@ body {
     line-height: 28px;
   }
   .medium{
-    padding-top: 48px;
+    padding-top: 20px;
+    margin-top: 20px;
   }
   .medium__infocard{
     padding-top: 32px;
+    margin-top: 0;
+    margin-bottom: 32px;
   }
   .card{
     width: 100%;
+    padding-bottom: 22px;
+    padding-top: 22px;
+  }
+  .card__link{
+    margin-top: 25px;
   }
   .medium__footer{
     display: flex;
@@ -451,10 +464,13 @@ body {
   .footer__rights{
     align-self: center;
     margin-top: 10px;
+    font-size: 16px;
+    line-height: 26px;
   }
   .footer__button{
     margin-left: 0;
     margin-top: 40px;
+    padding: 9px 17px;
   }
   .footer{
     padding-bottom: 30px;
