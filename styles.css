@@ -350,8 +350,8 @@ body {
     box-sizing: border-box;
   }
   .container {
-    padding-left: 16px;
-    padding-right: 16px;
+    margin-left: 16px;
+    margin-right: 16px;
   }
   .menu{
     padding-top: 24px;
@@ -407,8 +407,12 @@ body {
   .project__parent{
     flex-direction: column;
     margin-top: 16px;
+    align-items: center;
+    width: 100%;
+    flex-grow: 1;
   }
   .project__child{
+    width: 100%;
     margin-right: 0;
     margin-bottom: 16px;
   }
@@ -416,5 +420,35 @@ body {
     width: 100%;
     padding: 0px;
     margin-top: 16px;
+  }
+  .footer__block{
+    flex-direction: column;
+    align-self: center;
+    text-align: center;
+    padding-bottom: 40px;
+  }
+  .head__foot__left{
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 400;
+    text-align: center;
+  }
+  .footer__par{
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 0px;
+    text-align: center;
+  }
+  .footer__rights{
+    align-self: center;
+  }
+  .footer__button{
+    margin-left: 0;
+    margin-top: 40px;
+  }
+  .footer{
+    padding-bottom: 30px;
+    padding-top: 20px;
+    margin-top: 60px;
   }
 }
