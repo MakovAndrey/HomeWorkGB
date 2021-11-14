@@ -176,8 +176,6 @@ body {
   margin-top: 112px;
   padding-top: 91px;
   padding-bottom: 64px;
-  display: flex;
-  flex-direction: column;
 }
 .footer__contacts {
   display: flex;
@@ -198,12 +196,13 @@ body {
  max-width: 495px;
 }
 .footer__block {
-  width: 100%;
   color: #FFFFFF;
   display: flex;
   justify-content: space-between;
   padding-bottom: 96px;
-  align-items: center;
+}
+.footer__block__right{
+  align-self: center;
 }
 .head__foot__left {
   max-width: 340px;
