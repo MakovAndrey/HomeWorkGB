@@ -92,6 +92,24 @@ body {
   box-sizing: border-box;
   border-radius: 10px;
   opacity: 0.4;
+  margin-top: 8px;
+  margin-left: 56px;
+  margin-right: 56px;
+}
+.form__heading{
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.04em;
+  color: #1F3F68;
+  opacity: 0.8;
+  margin-left: 56px;
+}
+.form__buttt{
+  align-items: center;
+}
+.heading4{
+  margin-top: 56px;
+  margin-left: 56px;
 }
 .butt {
   background: #5a98d0;
@@ -103,6 +121,7 @@ body {
   text-align: center;
   color: #ffffff;
   text-transform: uppercase;
+  padding: 23px 183px;
 }
 .menu {
   display: flex;
@@ -215,12 +234,18 @@ body {
 .contact__medium {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 96px;
 }
 .contact_info {
   flex-basis: 40%;
 }
 .contact__form {
   flex-basis: 50%;
+  background: #FFFFFF;
+  box-shadow: 5px 10px 50px rgba(16, 112, 177, 0.2);
+  border-radius: 10px;
+  height: 800px;
+  width: 540;
 }
 .medium{
   margin-top: 64px;
@@ -245,37 +270,48 @@ body {
   text-decoration: none;
 }
 .contact__main{
-  background-image: url(img/bacground_img_cont.png);
+  background-image: url(img/bacground_img_cont.svg);
   background-position:center;
-  background: linear-gradient(253.6deg, #98D0FC 2.46%, #3481D7 93.24%); 
-  background-repeat: no-repeat;
-  width: 100%;
+  background-repeat:no-repeat;
+  background-size: 100%;
+  align-items: center;
   top: 130px;
   margin-bottom: 120px ;
+  height: 250px;
+}
+.heading__contact__main{
+  margin-bottom: 16px;
   font-weight: 500;
   font-size: 44px;
   line-height: 74px;
   text-align: center;
   letter-spacing: 0.04em;
   color: #FFFFFF;
+  align-self: center;
+  top: 180px;
+}
+.contact__main_par{
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #FFFFFF99
+}
+.map{
   height: 480px;
 }
-.heading__contact__main{
-  margin-bottom: 16px;
-}
-.contact__main__par{
-  font-size: 20px;
-  line-height: 30px;
-  text-align: center;
+.form__top{
+  color: #1F3F68;
+  opacity: 0.8;
   letter-spacing: 0.04em;
-  color: rgba(255, 255, 255, 0.6);
-  font-size: 20px;
+  font-size: 16px;
   line-height: 30px;
-  text-align: center;
-  letter-spacing: 0.04em;
-  color: rgba(255, 255, 255, 0.6);
 }
-
 /*        1100 px      */
 
 @media (max-width: 1100px) {
