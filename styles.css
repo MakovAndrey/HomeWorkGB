@@ -313,7 +313,7 @@ body {
   line-height: 30px;
 }
 .line{
-  width="100%";
+  width:100%;
   border: 1px solid #FFFFFF; 
   opacity: 0.4;
 }
