@@ -119,6 +119,7 @@ body {
 .form__butt{
   align-items: center;
   margin-bottom: 56px;
+  margin-top: -15px;
 }
 .heading4{
   margin-top: 40px;
@@ -643,6 +644,10 @@ body {
   .inp{
     margin-left: 35px;
     margin-right: 35px;
+    height: 45px;
+  }
+  .textarea{
+    height: 90px;
   }
   .form__heading{
     margin-left: 35px;
